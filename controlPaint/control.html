@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Главная страница</title>
+    </head>
+    <body>
+        <h3>Навигация по сайту</h3>
+        <a href="#tables">Таблица любимых мест</a>
+        <p></p><a href="#myself">Немного обо мне</a>
+        <p></p><a href="#massage">оставить пожелание мне</a>
+        <h3>Описание странички:</h3>
+        <h4><p><em>Эта страничка небольшая контрольная точка по html для меня</em></p></h4>
+        <h3><p>Мой план обучения:</p></h3>
+
+        <input type="checkbox" title="отметить пройденым">
+        <span>HTML</span>
+        <p></p><input type="checkbox" title="отметить пройденым">
+        <span>CSS</span>
+        <p></p><input type="checkbox" title="отметить пройденым">
+        <span>Django</span>
+        <p></p><input type="checkbox" title="отметить пройденым">
+        <span>Docker</span>
+        <p></p><input type="checkbox" title="отметить пройденым">
+        <span>JavaScript</span>
+        <a name="myself"></a>
+        <h4>Немного обо мне:</h4>
+        <h5>Училась в ****, живу в России, хочу стать программистом, люблю картошку</h5>
+        <img src="1https://sun9-13.userapi.com/s/v1/ig2/0YpJGdu1hGXGRYzCVSLGgBDcuyj9RDOPs0dZBiRQuj7suyXoBWEqeyg9oymAbbfyO2dUzAHtvcltlMFWjku7cOmE.jpg?size=400x400&quality=95&crop=184,243,892,892&ava=1" title="Мое фото" alt="Сори возникли проблемки с загрузкой фото">
+        <h3>Мои соц.сети:</h3>
+        <a href="https://vk.com/samiramens" target="_blank">VK</a>
+        <a href="https://t.me/Samira_FY" target="_blank"><p>Telegram</p></a>
+        <a name="tables"></a>
+        <h3>Таблица любимых мест в Сочи</h3>
+        <table border="3">
+            <thead>
+                <tr>
+                    <td>Нумерация</td>
+                    <td>Место</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Место №1</td>
+                    <td>Морпорт</td>
+                </tr>
+                <tr>
+                    <td>Место №2</td>
+                    <td>Тц Моремолл</td>
+                </tr>
+                <tr>
+                    <td>Место №3</td>
+                    <td>Дендрарий</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Итого мест</td>
+                    <td>3</td>
+                </tr>
+            </tfoot>
+        </table>
+        <a name="massage"></a>
+        <p><h3>Ваши пожелания для меня</h3></p>
+        <form action="" method="post">
+            <label for="user_name">Введите имя</label>
+            <input type="text" name="user_name" placeholder="введите что-то">
+            <input type="submit" value="отправить">
+            <input type="reset" value="сбросить">
+            
+        </form>
+        <h4>Расскажите немного и вы о себе</h4>
+        <form>
+            <label>Имя</label>
+            <input type="text" placeholder="ваше имя" title="введите имя">
+            <input type="submit" value="отправить">
+            <input type="reset" value="сбросить">
+            <p></p><h4>выберите пол</h4>
+            <p></p><label>Мужчина</label>
+            <input type="radio" name="sex">
+            <label>Женщина</label>
+            <input type="radio" name="sex">
+            <p></p><h4>Расскажите о себе</h4>
+            <p></p><textarea type="text" tittle="расскажите о себе" value="введите текст"></textarea>
+            <input type="submit" value="отправить">
+            <input type="reset" value="сбросить">
+        </form>
+    </body>
+</html>
